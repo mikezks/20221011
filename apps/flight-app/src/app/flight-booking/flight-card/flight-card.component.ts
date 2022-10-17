@@ -2,6 +2,7 @@
 /* eslint-disable @angular-eslint/no-empty-lifecycle-method */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import {
+  ChangeDetectorRef,
   Component,
   ElementRef,
   EventEmitter,
@@ -25,7 +26,13 @@ export class FlightCardComponent implements OnInit, OnChanges, OnDestroy {
   @Input() selected: boolean | undefined;
   @Output() selectedChange = new EventEmitter<boolean>();
 
-  constructor(private element: ElementRef, private zone: NgZone) {}
+  constructor(
+    private element: ElementRef,
+    private zone: NgZone,
+    private cdRef: ChangeDetectorRef) {
+
+    // this.cdRef.detectChanges();
+  }
 
   ngOnInit() {}
 
