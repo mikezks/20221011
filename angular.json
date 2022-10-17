@@ -16,6 +16,8 @@
     "luggage-domain": "libs/luggage/domain",
     "luggage-e2e": "apps/luggage-e2e",
     "luggage-feature-checkin": "libs/luggage/feature-checkin",
+    "mod-fed-infra": "apps/mod-fed-infra",
+    "mod-fed-infra-e2e": "apps/mod-fed-infra-e2e",
     "my-plugin": "libs/my-plugin",
     "my-plugin-e2e": "apps/my-plugin-e2e",
     "passenger": "apps/passenger",

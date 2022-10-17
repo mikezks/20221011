@@ -1,0 +1,10 @@
+{
+  "apps": [
+    {
+      "name": "passenger",
+      "deployUrl": "http://localhost:4201/remoteEntry.khjldszh87234hjknb3w432874.js",
+      "tagname": "mfe-passenger",
+      "version": "10.3.5"
+    }
+  ]
+}
