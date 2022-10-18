@@ -5,7 +5,7 @@
   <div class="content">
     <div style="height:200px;">
       <br>
-      <table *ngIf="data$ | async as data" class="table table-contensed">
+      <table *ngIf="data$ | ngrxPush as data" class="table table-contensed">
         <tr>
           <td>A</td>
           <td>{{data.a}}</td>
@@ -21,7 +21,7 @@
       </table>
 
       <button class="btn btn-default btn-sm" (click)="more()">More »</button>
-      
+
     </div>
   </div>
 </div>
