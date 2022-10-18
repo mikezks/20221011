@@ -36,6 +36,6 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     BasketComponent
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule {}
