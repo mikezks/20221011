@@ -8,4 +8,9 @@ import {Component, ViewEncapsulation} from '@angular/core';
 })
 export class HomeComponent {
   value1 = true;
+
+  changed(event: any): void {
+    console.log('event', event);
+    this.value1 = event.detail;
+  }
 }
